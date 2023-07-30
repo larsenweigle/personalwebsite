@@ -11,7 +11,7 @@ html {
     padding-bottom: 4rem;
 }
     
-/* hero background image */
+/* background image */
 .bgimage {
     height:100vh;
     background: url('images/surf.jpeg');
@@ -21,7 +21,7 @@ html {
     padding: 0;
     margin: 0;
 }
-/* text css above hero image*/
+/* text css above image*/
 .home_title {
     padding-top: 10rem;
     font-size: 4.5rem;
