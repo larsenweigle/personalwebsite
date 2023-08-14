@@ -74,3 +74,11 @@ html {
     text-decoration: none; /* This removes the underline */
     color: black; /* This changes the text color to black */
 }
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
