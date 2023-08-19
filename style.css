@@ -2,7 +2,13 @@ html {
     scroll-padding-top: 35px; /* height of your navbar */
 }
 
-/* spacing on all sections */
+/* --- navbar --- */
+.navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* --- spacing on all sections --- */
 .section {
     margin-top: 50px; /* adjust as needed */
     margin-bottom: 50px; /* adjust as needed */
@@ -11,24 +17,26 @@ html {
     padding-bottom: 4rem;
 }
     
-/* background image */
+/* --- background image and text --- */
 .bgimage {
-    height:100vh;
+    height:65vh;
     background: url('images/surf.jpeg');
     background-size:cover;
-    background-position: center 10%;
+    background-position: center 25%;
     position: relative;
     padding: 0;
     margin: 0;
 }
-/* text css above image*/
+
 .home_title {
     padding-top: 10rem;
     font-size: 4.5rem;
 }
+
 .home_desc {
     font-size: 2rem;
 }
+
 .home_text {
     text-align: center;
     position: absolute;
@@ -38,47 +46,39 @@ html {
     color: white;
 }
 
-.about_section {
-    max-width: 100%;
-    height: auto;
- }
-
 .fab {
     color: #000000;
 }
 
-.servicesText.card {
-    height: 110px;
-    cursor: pointer;
-  }
+/* --- metadata column --- */
+
+.meta-data-link {
+    color: skyblue;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.meta-data-element {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
 
 .servicesIcon {
-    font-size: 36px;
+    font-size: 30px;
     text-align: center;
     width: 100%;
 }
 
-.card-title {
-    text-align: center;
+.headshot-img {
+    border-radius: 50%;
 }
 
-.card:hover .servicesIcon {
-    color: #0459c1;
-}
+/* --- main info column --- */
 
-.servicesText:hover {
-    border: 1px solid #0459c1;
-}
-
-.cardText {
-    text-decoration: none; /* This removes the underline */
-    color: black; /* This changes the text color to black */
-}
-
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
+.img-float-right {
+    float: right;       /* Makes the image float to the left */
+    width: 30%;        /* Takes up 30% of its parent container's width */
+    max-width: 200px;  /* Sets a maximum width for the image */
+    margin-left: 15px; /* Add space to the left of the image */
+    margin-bottom: 15px; /* Add space below the image */
 }
