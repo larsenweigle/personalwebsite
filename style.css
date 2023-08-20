@@ -82,3 +82,10 @@ html {
     margin-left: 15px; /* Add space to the left of the image */
     margin-bottom: 15px; /* Add space below the image */
 }
+
+.media-img {
+    width: 400px;      
+    height: 100px;     
+    object-fit: cover; /* this ensures the image covers the full width & height without distorting */
+    display: block;    /* to remove any default spacing/gaps */
+}
